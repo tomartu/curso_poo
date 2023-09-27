@@ -1,3 +1,7 @@
+def imprimir_valores(monto_categoria, monto_viatico):
+    print("Honorarios es de :"+str(monto_categoria))
+    print("Honorarios viatico y comida es de : "+str(monto_viatico))
+
 maquinista: float = 211203.00
 recibidor: float = 211203.00
 comida_viatico: float = 5383.63
@@ -7,9 +11,8 @@ Dias = input("cuantos dias laborables tuvo el mes: ")
 Dias_laborables = int(Dias) * comida_viatico
 
 if categoria == "M":
-    print("Sueldo es de :"+str(maquinista))
-    print("Sueldo viatico y comida es de : "+str(Dias_laborables))
+    imprimir_valores(Maquinista, Dias_laborables)
 elif categoria == "R":
-    print("Sueldo es de :"+str(recibidor))
-    print("Sueldo viatico y comida es de : "+str(Dias_laborables))
-    
+    imprimir_valores(Recibidor, Dias_laborables)
+
+
