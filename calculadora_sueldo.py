@@ -1,3 +1,8 @@
+from funciones_no_utiles import funciones
+
+funciones.saludo()
+funciones.despedida()
+
 def imprimir_valores(monto_categoria, monto_viatico):
     print("Honorarios es de :"+str(monto_categoria))
     print("Honorarios viatico y comida es de : "+str(monto_viatico))
