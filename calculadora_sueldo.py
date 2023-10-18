@@ -32,6 +32,6 @@ while Dias_laborables is None:
 if categoria == "M":
     imprimir_valores(maquinista, Dias_laborables)
 elif categoria == "R":
-    imprimir_valores(Recibidor, Dias_laborables)
+    imprimir_valores(recibidor, Dias_laborables)
 
 
