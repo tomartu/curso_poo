@@ -1,8 +1,3 @@
-from funciones_no_utiles import funciones
-
-funciones.saludo()
-funciones.despedida()
-
 def imprimir_valores(monto_categoria, monto_viatico):
     print("Honorarios es de :"+str(monto_categoria))
     print("Honorarios viatico y comida es de : "+str(monto_viatico))
@@ -37,8 +32,6 @@ while Dias_laborables is None:
 if categoria == "M":
     imprimir_valores(maquinista, Dias_laborables)
 elif categoria == "R":
-    imprimir_valores(recibidor, Dias_laborables)
-else:
-    print("categoria no valida")
+    imprimir_valores(Recibidor, Dias_laborables)
 
 
