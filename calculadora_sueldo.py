@@ -1,8 +1,3 @@
-from funciones_no_utiles import funciones
-
-funciones.saludo()
-funciones.despedida()
-
 def imprimir_valores(monto_categoria, monto_viatico):
     print("Honorarios es de :"+str(monto_categoria))
     print("Honorarios viatico y comida es de : "+str(monto_viatico))
@@ -24,7 +19,7 @@ Dias_laborables = None
 while Dias_laborables is None:
     try:
         Dias = input("cuantos dias laborables tuvo el mes: ")
-        Dias_laborables = int(Dias) * Comida_viatico
+        Dias_laborables = int(Dias) *comida_viatico
     except Exception as e:
         print("Exception: "+str(e))
         print("Debe ingresar un numero válido")
@@ -35,10 +30,8 @@ while Dias_laborables is None:
 
 
 if categoria == "M":
-    imprimir_valores(Maquinista, Dias_laborables)
+    imprimir_valores(maquinista, Dias_laborables)
 elif categoria == "R":
-    imprimir_valores(Recibidor, Dias_laborables)
-else:
-    print("categoria no valida")
+    imprimir_valores(recibidor, Dias_laborables)
 
 
