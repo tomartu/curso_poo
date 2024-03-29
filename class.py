@@ -4,7 +4,7 @@ class empleados():
     hsSemanales=40
     empleadosAusentes=5
     turnoMañana=False
-    turnoTarde=False
+    turnoTarde=true
 
     def turno(self):
         self.turnoMañana=True
@@ -23,3 +23,4 @@ print("la cantidad de la nomina es de : ",nomina.cantidadEmp)
 print ("La cantidad neta de empleados trabajando es de : ",nomina.cantidadEmp-nomina.empleadosAusentes)
 print("la horas semanales de la nomina es de: ",nomina.hsSemanales)
 print(nomina.estado()) 
+

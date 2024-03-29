@@ -17,5 +17,6 @@ while True:
             print("el numero es mayor")
     if numero == numero_secreto:
           print("adivinaste: ",numero_secreto)
+
                 
        
