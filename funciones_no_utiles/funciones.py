@@ -8,3 +8,7 @@ def curso():
 
 def despedida():
     print ("Chau")
+
+
+despedida()
+curso()
